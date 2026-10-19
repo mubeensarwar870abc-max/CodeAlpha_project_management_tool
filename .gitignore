@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Production builds
+backend/dist/
+
+# Environment files
+.env
+*.env
+backend/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Binaries
+cloudflared.exe
+*.exe
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Generated frontend build
+frontend/dist/
